@@ -12,10 +12,14 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_calculate"
-        android:name="ru.mirea.polyakov.mireaproject.ui.Calculator.CalculatorFragment"
+        android:name="ru.mirea.polyakov.mireaproject.ui.Calculator.CalculateFragment"
         android:label="Calculate"
         tools:layout="@layout/calculate_fragment"/>
-
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.polyakov.mireaproject.ui.Browser.BrowserFragment"
+        android:label="Browser"
+        tools:layout="@layout/browser_fragment"/>
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="ru.mirea.polyakov.mireaproject.ui.slideshow.SlideshowFragment"
